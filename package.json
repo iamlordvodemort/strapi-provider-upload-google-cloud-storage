@@ -1,6 +1,6 @@
 {
-  "name": "@strapi-community/strapi-provider-upload-google-cloud-storage",
-  "version": "4.10.6",
+  "name": "@iamlordvodemort/strapi-provider-upload-google-cloud-storage",
+  "version": "5.0.0",
   "description": "(Non-official) Google Cloud Storage Provider for Strapi Upload",
   "keywords": [
     "strapi",
@@ -15,19 +15,17 @@
     "url": "https://github.com/strapi-community/strapi-provider-upload-google-cloud-storage/issues"
   },
   "license": "MIT",
-  "author": {
-    "name": "Vanessa Pasque",
-    "email": "lith@amykron.com"
-  },
+  "author": "Anthony Layne <anthony.layne@me.com>",
   "maintainers": [
     {
-      "name": "Vanessa Pasque",
-      "email": "lith@amykron.com"
+      "name": "Anthony Layne",
+      "email": "anthony.layne@me.com"
     }
   ],
   "main": "./lib",
   "directories": {
-    "lib": "./lib"
+    "lib": "lib",
+    "test": "test"
   },
   "scripts": {
     "test": "mocha",
